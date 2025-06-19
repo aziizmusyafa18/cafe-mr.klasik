@@ -210,7 +210,8 @@ body {
   margin-top: 5rem;
   justify-content: center;
 }
-.menu .row .menu-card {
+.menu .row .menu-card,
+.menu .row .menu-food {
   text-align: center;
   padding-bottom: 4rem;
 }
@@ -218,6 +219,11 @@ body {
   border-radius: 50%;
   width: 35%;
   height: 80%;
+}
+.menu .row .menu-food img {
+  border-radius: 50%;
+  width: 45%;
+  height: 100%;
 }
 .menu .row .menu-card .menu-card-title {
   margin: 1.5rem auto 0.5rem;
