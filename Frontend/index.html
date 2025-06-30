@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Estonia&family=Lavishly+Yours&family=Merienda:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwigley&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <title>Cafe Mr.Klasik</title>
+    <link rel="shortcut icon" href="img/ikon2.png" type="image/x-icon" />
+  </head>
+  <body class="bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"
+        >goresan<span>senja <i class="fas fa-mug-hot"></i></span>.</a
+      >
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i class="fa fa-bars fa-2x"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1><span>Kopi</span> Ireng Dhe.</h1>
+        <p>Hasil Mahakarya Kopi Terbaik Yang diracik Oleh Tangan Profesional</p>
+      </main>
+    </section>
+    <!-- hero section -->
+
+    <!-- tentang -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/kopi.png" alt="tentang" />
+        </div>
+        <div class="content">
+          <h3>Mengapa Wajib Merasakan Kopi kami?</h3>
+          <p>
+            kopi hitam kami dibuat dengan resep nuansa tahun 90 dengan
+            kekentalan yang pas sehingga membuat anda lebih menikmati nuansa
+            ngopi yang sebenarya
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- tentang -->
+
+    <!-- menu -->
+    <section id="menu" class="menu">
+      <i class=""></i>
+      <h2>Menu <span>Kopi</span></h2>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/kopihitam.jpg" alt="kopi" class="menu-card-img" />
+          <h3 class="menu-card-title">Kopi Dhe</h3>
+          <p class="menu-card-price">IDR 3K</p>
+          <form
+            class="order-form"
+            onsubmit="return false;"
+            style="margin-top: 1rem; flex-direction: column"
+          >
+            <p>
+              Jumlah :
+              <input
+                type="number"
+                min="1"
+                value="0"
+                class="order-qty"
+                style="width: 60px"
+              />
+            </p>
+            <button type="button" class="btn btn-pesan">Pesan</button>
+          </form>
+        </div>
+        <div class="menu-card">
+          <img src="img/kopihitam.jpg" alt="kopi" class="menu-card-img" />
+          <h3 class="menu-card-title">Kopi Dhe</h3>
+          <p class="menu-card-price">IDR 3K</p>
+          <form
+            class="order-form"
+            onsubmit="return false;"
+            style="margin-top: 1rem; flex-direction: column"
+          >
+            <p>
+              Jumlah :
+              <input
+                type="number"
+                min="1"
+                value="0"
+                class="order-qty"
+                style="width: 60px"
+              />
+            </p>
+            <button type="button" class="btn btn-pesan">Pesan</button>
+          </form>
+        </div>
+        <div class="menu-card">
+          <img src="img/kopihitam.jpg" alt="kopi" class="menu-card-img" />
+          <h3 class="menu-card-title">Kopi Dhe</h3>
+          <p class="menu-card-price">IDR 3K</p>
+          <form
+            class="order-form"
+            onsubmit="return false;"
+            style="margin-top: 1rem; flex-direction: column"
+          >
+            <p>
+              Jumlah :
+              <input
+                type="number"
+                min="1"
+                value="0"
+                class="order-qty"
+                style="width: 60px"
+              />
+            </p>
+            <button type="button" class="btn btn-pesan">Pesan</button>
+          </form>
+        </div>
+        <div class="menu-card">
+          <img src="img/kopihitam.jpg" alt="kopi" class="menu-card-img" />
+          <h3 class="menu-card-title">Kopi Dhe</h3>
+          <p class="menu-card-price">IDR 3K</p>
+          <form
+            class="order-form"
+            onsubmit="return false;"
+            style="margin-top: 1rem; flex-direction: column"
+          >
+            <p>
+              Jumlah :
+              <input
+                type="number"
+                min="1"
+                value="0"
+                class="order-qty"
+                style="width: 60px"
+              />
+            </p>
+            <button type="button" class="btn btn-pesan">Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Konfirmasi -->
+    <div id="orderModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <span class="close" id="closeModal">&times;</span>
+        <h3>Konfirmasi Pesanan</h3>
+        <div id="orderDetail"></div>
+        <form
+          class="order-form"
+          onsubmit="return false;"
+          style="margin-top: 1rem; flex-direction: column"
+        >
+          <p>
+            Nomor Kursi:
+            <input type="text" id="nomorKursi" style="width: 60px" />
+          </p>
+        </form>
+        <button id="confirmOrder" class="btn">OK</button>
+      </div>
+    </div>
+    <!-- ...existing code... -->
+
+    <!-- menu food-->
+    <section id="menu" class="menu">
+      <i class=""></i>
+      <h2><span>Menu</span> Makanan</h2>
+      <div class="row">
+        <div class="menu-food">
+          <img src="img/nasigoreng.jpg" alt="kopi" class="menu-card-img" />
+          <h3 class="menu-card-title">Nasi Goreng Jawa</h3>
+          <p class="menu-card-price">IDR 8K</p>
+          <form
+            class="order-form"
+            onsubmit="return false;"
+            style="margin-top: 1rem; flex-direction: column"
+          >
+            <p>
+              Jumlah :
+              <input
+                type="number"
+                min="1"
+                value="0"
+                class="order-qty"
+                style="width: 60px"
+              />
+            </p>
+            <button type="button" class="btn btn-pesan">Pesan</button>
+          </form>
+        </div>
+        <div class="menu-food">
+          <img src="img/nasigoreng.jpg" alt="kopi" class="menu-card-img" />
+          <h3 class="menu-card-title">Kopi Dhe</h3>
+          <p class="menu-card-price">IDR 3K</p>
+          <form
+            class="order-form"
+            onsubmit="return false;"
+            style="margin-top: 1rem; flex-direction: column"
+          >
+            <p>
+              Jumlah :
+              <input
+                type="number"
+                min="1"
+                value="0"
+                class="order-qty"
+                style="width: 60px"
+              />
+            </p>
+            <button type="button" class="btn btn-pesan">Pesan</button>
+          </form>
+        </div>
+        <div class="menu-food">
+          <img src="img/nasigoreng.jpg" alt="kopi" class="menu-card-img" />
+          <h3 class="menu-card-title">Kopi Dhe</h3>
+          <p class="menu-card-price">IDR 3K</p>
+          <form
+            class="order-form"
+            onsubmit="return false;"
+            style="margin-top: 1rem; flex-direction: column"
+          >
+            <p>
+              Jumlah :
+              <input
+                type="number"
+                min="1"
+                value="0"
+                class="order-qty"
+                style="width: 60px"
+              />
+            </p>
+            <button type="button" class="btn btn-pesan">Pesan</button>
+          </form>
+        </div>
+        <div class="menu-food">
+          <img src="img/nasigoreng.jpg" alt="kopi" class="menu-card-img" />
+          <h3 class="menu-card-title">Kopi Dhe</h3>
+          <p class="menu-card-price">IDR 3K</p>
+          <form
+            class="order-form"
+            onsubmit="return false;"
+            style="margin-top: 1rem; flex-direction: column"
+          >
+            <p>
+              Jumlah :
+              <input
+                type="number"
+                min="1"
+                value="0"
+                class="order-qty"
+                style="width: 60px"
+              />
+            </p>
+            <button type="button" class="btn btn-pesan">Pesan</button>
+          </form>
+        </div>
+      </div>
+      <button type="submit" id="btn-konfirmasi" class="btn">
+        Kirim Pesanan
+      </button>
+    </section>
+    <!-- menu food-->
+
+    <!-- kontak -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Klik Pada Peta Untuk Mengakses Lokasi Kami</p>
+      <div class="row">
+        <form class="contact-form">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.005078121806!2d111.99288947464339!3d-7.789285092230624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78512bc1bbaa2b%3A0xaf979aee057da8f9!2sPondok%20Pesantren%20Lirboyo%20Al%20Mahrusiyah%203!5e0!3m2!1sid!2sid!4v1747802742592!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map"
+          ></iframe>
+        </form>
+      </div>
+    </section>
+    <!-- kontak -->
+
+    <!-- footer -->
+    <footer>
+      <div class="social">
+        <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fa fa-whatsapp fa-2x"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>
+          Created By
+          <a href="https://www.instagram.com/aziizzz18/">luthfimusyafa</a> |
+          &copy;pitchaloka18
+        </p>
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+# Mengabaikan folder dependencies di dalam folder Backend
+Backend/node_modules
+
+# Mengabaikan file log (jika ada)
+*.log
+
+# Mengabaikan file environment (untuk menyimpan password/kunci rahasia nanti)
+.env
+Backend/.env
+
+# Mengabaikan file sistem operasi (opsional tapi sangat disarankan)
+.DS_Store
